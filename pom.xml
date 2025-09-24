@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>3.5.6</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
+	<groupId>com.jdev.kafka</groupId>
+	<artifactId>kafkademo</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>kafkademo</name>
+	<description>Demo project for Spring Boot</description>
+    <properties>
+        <java.version>11</java.version>
+        <lombok.version>1.18.24</lombok.version>
+        <liquibase.version>4.17.2</liquibase.version>
+        <postgresql.version>42.5.1</postgresql.version>
+        <zalando.problem.version>0.27.0</zalando.problem.version>
+        <evoluta.email-sender.version>1.0.3</evoluta.email-sender.version>
+        <hibernate-types.version>2.20.0</hibernate-types.version>
+        <evoluta.paypal.version>1.0.0</evoluta.paypal.version>
+    </properties>
+
+    <packaging>pom</packaging>
+
+    <!--<modules>
+        <module>fac-core</module>
+        <module>fac-users</module>
+        <module>fac-common</module>
+        <module>fac-experience</module>
+        <module>fac-article</module>
+        <module>fac-gateway</module>
+    </modules>-->
+
+</project>
