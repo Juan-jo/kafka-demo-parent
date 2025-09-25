@@ -1,12 +1,11 @@
 [submodule "core"]
 	path = core
-	url = git@github.com:Juan-jo/kafka-demo-parent.git
-	branch = main
+	url = git@github.com:Juan-jo/kafka-demo-core.git
+	
 [submodule "producer"]
 	path = producer
 	url = git@github.com:Juan-jo/kafka-demo-producer.git
-	branch = main
+	
 [submodule "consumer"]
 	path = consumer
 	url = git@github.com:Juan-jo/kafka-demo-consumer.git
-	branch = main
