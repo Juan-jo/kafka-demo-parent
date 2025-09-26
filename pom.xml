@@ -13,18 +13,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>kafka-demo</name>
 	<description>Demo project for Spring Boot</description>
-    <properties>
-        <java.version>11</java.version>
-        <lombok.version>1.18.24</lombok.version>
-        <liquibase.version>4.17.2</liquibase.version>
-        <postgresql.version>42.5.1</postgresql.version>
-        <zalando.problem.version>0.27.0</zalando.problem.version>
-        <evoluta.email-sender.version>1.0.3</evoluta.email-sender.version>
-        <hibernate-types.version>2.20.0</hibernate-types.version>
-        <evoluta.paypal.version>1.0.0</evoluta.paypal.version>
-    </properties>
-
-    <packaging>pom</packaging>
+    	<packaging>pom</packaging>
 
     <dependencies>
         <dependency>
